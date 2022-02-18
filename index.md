@@ -11,7 +11,7 @@ The project collects legitimate [functions](/functions/) of Unix binaries that c
 
 It is important to note that this is **not** a list of exploits, and the programs listed here are not vulnerable per se, rather, GTFOBins is a compendium about how to live off the land when you only have certain binaries available.
 
-GTFOBins is a [collaborative][] project created by [Emilio Pinna][chamindu] where everyone can [contribute][] with additional binaries and techniques.
+GTFOBins is a [collaborative][] project created by [Chamindu pushpika][chamindu] where everyone can [contribute][] with additional binaries and techniques.
 
 If you are looking for Windows binaries you should visit [LOLBAS][].
 
