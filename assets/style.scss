@@ -1,23 +1,16 @@
----
----
-
-$accent: #bf0707;
+--- --- $accent: #1e09db;
 $lighter: #fff4f4;
-$marked: #ffcccc;
-$hover: #ff0000;
-
+$marked: #c2ccee;
+$hover: #001aff;
 // layout
-
 $column-width: 800px;
 $grace-space: 200px;
 $layout-break: "(min-width: #{$column-width + $grace-space})";
-
 @media #{$layout-break} {
     body {
         width: $column-width;
         margin: 40px auto;
     }
-
     p {
         text-align: justify;
     }
@@ -30,7 +23,6 @@ $layout-break: "(min-width: #{$column-width + $grace-space})";
 }
 
 // common tags
-
 body {
     font-family: sans, sans-serif;
 }
@@ -46,14 +38,14 @@ pre {
     background: $lighter;
     padding: 1em;
     overflow-x: auto;
-
     code {
         padding: 0;
         border-radius: 0;
     }
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: $accent;
 }
 
@@ -62,23 +54,23 @@ a:hover {
 }
 
 // permalink on headings
-
-h2, h3, h4, h5, h5 {
+h2,
+h3,
+h4,
+h5,
+h5 {
     .permalink {
         margin-left: 5px;
         text-decoration: none;
         visibility: hidden;
-
         &::before {
             content: "#";
         }
     }
-
     &:target {
         border-left: 5px solid $accent;
         padding-left: 5px;
     }
-
     &:hover {
         .permalink {
             visibility: visible;
@@ -87,20 +79,16 @@ h2, h3, h4, h5, h5 {
 }
 
 // binary list and search
-
 #bin-search-wrapper {
     margin: 50px 0;
     padding: 10px 0;
     position: relative; // XXX needed for tooltip sizing
-
     #bin-search-filters {
         text-align: center;
-
         a {
             background: $lighter;
             font-size: initial;
             border-radius: 0.25em;
-
             &:hover:before {
                 content: attr(data-title);
                 font-size: 0.8rem;
@@ -120,7 +108,6 @@ h2, h3, h4, h5, h5 {
             }
         }
     }
-
     #bin-search {
         margin-top: 25px;
         padding: 1em;
@@ -134,19 +121,16 @@ h2, h3, h4, h5, h5 {
 
 #bin-table {
     width: 100%;
-
-    th, td {
+    th,
+    td {
         padding: 0.2em 1em;
     }
-
     th {
         text-align: left;
     }
-
     tbody tr:hover {
         background: $lighter;
     }
-
     #search-message {
         display: none;
         text-align: center;
@@ -155,33 +139,28 @@ h2, h3, h4, h5, h5 {
 }
 
 // function description
-
 .function-list {
     font-size: 0.8rem;
     list-style: none;
     padding: 0;
     margin: 0;
-
     li {
         display: inline-block;
-
         a {
             display: inline-block;
             padding: 0.25em 0.5em;
             margin: 0.2em 0;
             border: 1px solid $accent;
         }
-
-        a:link, a:visited {
+        a:link,
+        a:visited {
             color: $accent;
             text-decoration: none;
         }
-
         a:hover {
             color: $hover;
             border-color: $hover;
         }
-
         &.match a {
             background: $marked;
         }
@@ -189,7 +168,6 @@ h2, h3, h4, h5, h5 {
 }
 
 // bin examples
-
 .examples {
     display: table;
     width: 100%;
@@ -197,10 +175,8 @@ h2, h3, h4, h5, h5 {
     counter-reset: item;
     margin: 0;
     padding: 0;
-
-    & > li {
+    &>li {
         display: table-row;
-
         &:not(:only-child):before {
             display: table-cell;
             font-size: 0.8rem;
@@ -214,7 +190,6 @@ h2, h3, h4, h5, h5 {
 }
 
 // other classes
-
 .logo {
     $margin: 20px;
     float: right;
@@ -237,7 +212,6 @@ h2, h3, h4, h5, h5 {
 .github-buttons {
     display: inline-block;
     margin-left: 10px;
-
     // avoid displaying the link text during loading
     a.github-button {
         visibility: hidden;
