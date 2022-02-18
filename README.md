@@ -1,4 +1,4 @@
-# PYCODBins [![Build Status][]][travis]
+# GTFOBins [![Build Status][]][travis]
 
 [Build Status]: https://travis-ci.com/GTFOBins/GTFOBins.github.io.svg?branch=master
 [travis]: https://travis-ci.com/PYMaster-ft/PYMaster-ft.github.io
