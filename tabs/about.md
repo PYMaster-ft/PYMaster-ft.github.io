@@ -39,7 +39,7 @@ Hope you will enjoy reading it!
 
 ## Why `PYMaster-ft` ?
 
-My firstname is **Danial** and some of my friends call me "kenway" because of the following joke:
+My firstname is **Danial** and some of my friends call me `kenway` because of the following joke:
 
 <video controls style="width:100%">
     <source src="https://amirr0r.github.io/assets/videos/Trevor-Noah-Amir.mp4" type="video/mp4">
